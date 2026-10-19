@@ -1,0 +1,48 @@
+{
+  "name": "timetree-mcp",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol (MCP) server for the TimeTree database (timetree.org), providing species divergence time queries and evolutionary tree of life data.",
+  "license": "MIT",
+  "author": "Timetree-MCP Contributors",
+  "homepage": "https://github.com/timetree-mcp/timetree-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timetree-mcp/timetree-mcp"
+  },
+  "main": "dist/index.js",
+  "bin": {
+    "timetree-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "lint": "echo \"Linting not configured\" && exit 0",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "timetree",
+    "evolution",
+    "phylogenetics",
+    "divergence-time",
+    "tree-of-life",
+    "bioinformatics",
+    "species"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.2"
+  }
+}
