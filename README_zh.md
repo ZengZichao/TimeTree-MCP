@@ -4,6 +4,7 @@
 [![许可证: MIT](https://img.shields.io/badge/许可证-MIT-yellow.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18.0.0-green.svg)](https://nodejs.org/)
 [![English](https://img.shields.io/badge/README-English-blue.svg)](README.md)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-在线-brightgreen.svg)](https://zengzichao.github.io/TimeTree-MCP/)
 
 一个 [模型上下文协议（MCP）](https://modelcontextprotocol.io/) 服务器，为 AI 助手提供对 [TimeTree](https://timetree.org) 数据库的访问——这是一个关于生命进化时间尺度的公共知识库。
 

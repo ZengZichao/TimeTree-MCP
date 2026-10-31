@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18.0.0-green.svg)](https://nodejs.org/)
 [![中文文档](https://img.shields.io/badge/README-中文-red.svg)](README_zh.md)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen.svg)](https://zengzichao.github.io/TimeTree-MCP/)
 
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that provides AI assistants with access to the [TimeTree](https://timetree.org) database — a public knowledge-base for the evolutionary timescale of life.
 
